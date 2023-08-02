@@ -1,0 +1,21 @@
+.Crud {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.form {
+    border: 1px solid black;
+    margin: 10px;
+    width: 30%;
+}
+
+.posts {
+    border: 1px solid black;
+    margin: 10px;
+    width: 70%;
+    overflow: auto;
+    height: 500px;
+}
